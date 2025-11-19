@@ -21,7 +21,7 @@ Brief description of what this topic covers.
 
 ## 📓 Notebooks
 
-- [Notebook Name](./notebooks/notebook_name.ipynb) - What this notebook covers
+- [FAISS-Langchain]([./notebooks/notebook_name.ipynb](https://github.com/hemanjalireddy/AI-Engineering-Roadmap/blob/main/RAG/FAISS/faiss-langchain.ipynb)) - Implementation of FAISS using Langchain
 
 ## 🎯 Key Concepts Learned
 
