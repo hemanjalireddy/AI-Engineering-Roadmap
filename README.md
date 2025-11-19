@@ -1,6 +1,6 @@
 # 🤖 AI Learning Roadmap
 
-My personal journey learning AI/ML from scratch. This repository contains all the resources I'm using, my notes, and practice notebooks.
+My personal journey learning AI/ML from scratch. This repository contains all the resources I'm learning from some notes and experiment notebooks.
 
 ## 📚 Topics
 
