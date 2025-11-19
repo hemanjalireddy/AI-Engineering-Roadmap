@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+<article class="topic-page">
+  <header class="topic-header">
+    <h1>{{ page.title }}</h1>
+    <div class="topic-meta">
+      <span class="difficulty {{ page.difficulty }}">{{ page.difficulty | capitalize }}</span>
+      <span class="status {{ page.status }}">{{ page.status | replace: "-", " " | capitalize }}</span>
+      {% if page.date_started %}
+      <span class="date">Started: {{ page.date_started | date: "%B %Y" }}</span>
+      {% endif %}
+    </div>
+    <p class="topic-description">{{ page.description }}</p>
+  </header>
+
+  <div class="topic-content">
+    {{ content }}
+  </div>
+
+  {% if page.notebooks %}
+  <section class="notebooks-section">
+    <h2>📓 Practice Notebooks</h2>
+    <div class="notebooks-grid">
+      {% for notebook in page.notebooks %}
+      <div class="notebook-card">
+        <h3>{{ notebook.title }}</h3>
+        <p>{{ notebook.description }}</p>
+        <div class="notebook-links">
+          <a href="{{ notebook.github_link }}" class="btn btn-github" target="_blank">
+            <svg height="16" width="16" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+            View on GitHub
+          </a>
+          {% if notebook.colab_link %}
+          <a href="{{ notebook.colab_link }}" class="btn btn-colab" target="_blank">
+            Open in Colab
+          </a>
+          {% endif %}
+          {% if notebook.kaggle_link %}
+          <a href="{{ notebook.kaggle_link }}" class="btn btn-kaggle" target="_blank">
+            View on Kaggle
+          </a>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if page.resources %}
+  <section class="resources-section">
+    <h2>📚 Learning Resources</h2>
+    {% for resource in page.resources %}
+    <div class="resource-item">
+      <h3>
+        <a href="{{ resource.link }}" target="_blank">{{ resource.title }}</a>
+        <span class="resource-type">{{ resource.type }}</span>
+      </h3>
+      <p>{{ resource.description }}</p>
+      {% if resource.notes %}
+      <details class="resource-notes">
+        <summary>📝 My Notes & Key Takeaways</summary>
+        <div class="notes-content">
+          {{ resource.notes | markdownify }}
+        </div>
+      </details>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  <nav class="topic-navigation">
+    {% if page.previous %}
+    <a href="{{ page.previous.url }}" class="nav-previous">← {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next %}
+    <a href="{{ page.next.url }}" class="nav-next">{{ page.next.title }} →</a>
+    {% endif %}
+  </nav>
+</article>
