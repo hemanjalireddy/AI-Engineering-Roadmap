@@ -3,12 +3,12 @@
 My personal journey learning AI/ML from scratch. This repository contains all the resources I'm learning from some notes and experiment notebooks.
 
 ## 📚 Topics
-
-<!-- Add your topics here as you learn them -->
+- **RAG**
+   - FAISS
 
 ## 🎯 Current Focus
 
-Currently working on: **[Add your current topic here]**
+Currently working on: **FAISS**
 
 ## 📊 Progress
 
