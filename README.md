@@ -12,7 +12,7 @@ Currently working on: **FAISS**
 
 ## 📊 Progress
 
-Total topics covered: 0
+Total topics covered: 1
 
 ## 🛠️ Tools & Technologies
 
