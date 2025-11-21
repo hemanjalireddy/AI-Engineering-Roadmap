@@ -6,15 +6,15 @@ My personal journey learning AI/ML from scratch. This repository contains all th
 
 - **RAG**
     - *FAISS*
+- **vLLM**
 
 ## 🎯 Current Focus
 
-Currently working on: FAISS
+Currently working on: vLLM
 
 ## 📊 Progress
 
-Total topics covered: 1
-Total topics covered: 1
+Total topics covered: 2
 
 ## 🛠️ Tools & Technologies
 
