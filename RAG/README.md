@@ -14,14 +14,14 @@ Brief description of what this topic covers.
 ### Articles & Videos
 
 **For FAISS**
-    - [Introduction to Facebook AI Similarity Search (Faiss)](https://www.pinecone.io/learn/series/faiss/faiss-tutorial/)-This one is really cool
-    - [What is FAISS](https://www.geeksforgeeks.org/data-science/what-is-faiss/) 
-    - [Faiss](https://docs.langchain.com/oss/python/integrations/vectorstores/faiss)
+- [Introduction to Facebook AI Similarity Search (Faiss)](https://www.pinecone.io/learn/series/faiss/faiss-tutorial/) -This one is really cool
+- [What is FAISS](https://www.geeksforgeeks.org/data-science/what-is-faiss/) 
+- [Faiss](https://docs.langchain.com/oss/python/integrations/vectorstores/faiss)
 
 
 ## 📓 Notebooks
 
-- [Notebook Name](./notebooks/notebook_name.ipynb) - What this notebook covers
+- [FAISS-Langchain]([./notebooks/notebook_name.ipynb](https://github.com/hemanjalireddy/AI-Engineering-Roadmap/blob/main/RAG/FAISS/faiss-langchain.ipynb)) - Implementation of FAISS using Langchain
 
 ## 🎯 Key Concepts Learned
 
