@@ -19,9 +19,7 @@ This covers whatever I learn about vLLMs
 
 
 
-## 📓 Notebooks
 
-- [Notebook Name](./notebooks/notebook_name.ipynb) - What this notebook covers
 
 ## 🎯 Key Concepts Learned
 
