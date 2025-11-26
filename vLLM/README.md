@@ -45,7 +45,8 @@ Lesson: For stability, keep temp low (e.g., 0.1) or use a modern model like Llam
 
 ## 📊 Projects
 
-1. **Project Name** - Did not build anything yet
+1. **Agentic RAG** -
+[AI-Research-Agent](https://github.com/hemanjalireddy/Agentic-Rag/tree/main)
 
 ## 🔗 Additional Resources
 
