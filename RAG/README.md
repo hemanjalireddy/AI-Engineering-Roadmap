@@ -13,6 +13,9 @@ The RAG section currently covers FAISS and Evaluation of RAGs
 - Did not come across any course yet
 ### Articles & Videos
 
+***For Chunking**
+-[Chunking](https://www.datacamp.com/blog/chunking-strategies?utm_cid=22660585401&utm_aid=181540419795&utm_campaign=230119_1-ps-other~dsa~tofu-blog_2-b2c_3-nam_4-prc_5-na_6-na_7-le_8-pdsh-go_9-nb-e_10-na_11-na&utm_loc=9005779-&utm_mtd=-c&utm_kw=&utm_source=google&utm_medium=paid_search&utm_content=ps-other~nam-en~dsa~tofu~blog~artificial-intelligence&gad_source=1&gad_campaignid=22660585401&gbraid=0AAAAADQ9WsGkDwafpSdhSa5QXYeGlBcc-&gclid=Cj0KCQiAiqDJBhCXARIsABk2kSlMniIP8xFNFtr_6oS6a6wmpVZqCKzWtnyaXFbpklw-wwSZVyh2LN4aAnocEALw_wcB)
+
 **For FAISS**
 - [Introduction to Facebook AI Similarity Search (Faiss)](https://www.pinecone.io/learn/series/faiss/faiss-tutorial/) -This one is really cool
 - [What is FAISS](https://www.geeksforgeeks.org/data-science/what-is-faiss/) 
